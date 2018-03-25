@@ -10,16 +10,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 public class HelloWorldApplicationTests {
 
-	private HelloWorld helloWorld;
-
-	public HelloWorldApplicationTests(){
-		helloWorld = new HelloWorld();
-	}
 
 	@Test
 	public void contextLoads() {
-		String result = helloWorld.sayHello();
-		assertEquals("Hello World", result);
 
 	}
 
